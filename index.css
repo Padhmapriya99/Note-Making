@@ -1,0 +1,42 @@
+body {
+  background-image: url("final.jpg");
+  background-color: #cccccc;
+  /* Full height */
+  height: 100%;
+   width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#edit{
+  background: black;
+}
+
+.container-fluid {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+footer {
+    margin-top: 1%;
+    text-align: center;
+    background-color: black;
+    color: #ffffff;
+    font-weight: 500;
+    display: block;
+    position: fixed;
+    bottom: 0;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
